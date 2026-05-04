@@ -1,0 +1,206 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre nosotros",
+    "events": "Veladas & Eventos",
+    "join": "Únete",
+    "gallery": "Galería",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "La Salsa Cubana en el corazón de París",
+    "subtitle": "Somos Familia — una comunidad apasionada que celebra el baile, la música y la convivencia a través de la Salsa Cubana.",
+    "cta_join": "Únete a nosotros",
+    "cta_events": "Ver los eventos"
+  },
+  "nights": {
+    "title": "Nuestras veladas regulares",
+    "subtitle": "Tres citas para bailar, reencontrarse y compartir.",
+    "timbanight": {
+      "name": "Timbanight",
+      "day": "Cada martes",
+      "subtitle": "La velada de Timba & Salsa Cubana",
+      "description": "Todos los martes desde el 19 de mayo en el Colonel Fabien (París 10) para clases de salsa y una velada mix 70% cubana / 30% bachata. ¡Disfruta de un ambiente convivial por solo 5€ todo incluido (clase, velada y guardarropa) de 19h a 1h! 💃🔥",
+      "time": "19h00 – 00h00",
+      "venue": "Generator Paris",
+      "ambiance": "Convivial y familiar"
+    },
+    "communale": {
+      "name": "La Communale Salsa Party",
+      "day": "Cada jueves",
+      "subtitle": "La velada de Salsa Cubana para todos",
+      "description": "Descubre la nueva temporada en La Communale (Saint-Ouen) con una clase de salsa a cargo de Ibra seguida de una velada mix latino gratuita. Una velada convivial que mezcla baile, gastronomía y cultura en la histórica nave MAN por solo 5€ la clase.",
+      "time": "19h00 – 00h00",
+      "venue": "Communale Saint-Ouen",
+      "ambiance": "Cálida"
+    },
+    "nochecubana": {
+      "name": "La Noche Cubana",
+      "day": "Cada 2° sábado del mes",
+      "subtitle": "La gran velada de Salsa Cubana del mes",
+      "description": "Cita cada 2° sábado del mes en el Jo&Joe Gentilly para la Noche Cubana, una velada explosiva con clase de salsa y mix cubano. ¡Disfruta de un marco único y un ambiente familiar hasta la 01h30 por solo 12€ entrada todo incluido!",
+      "time": "20h00 – 01h30",
+      "venue": "Jo&Joe Gentilly, 89-93 Av. Paul Vaillant Couturier, 94250 Gentilly",
+      "ambiance": "Familiar y cubana"
+    },
+    "quaisalsa": {
+      "name": "Quai en Salsa",
+      "day": "Cada domingo · 25 junio – fin de agosto",
+      "subtitle": "La Salsa Cubana al aire libre",
+      "description": "Todo el verano, únete a nosotros en los muelles de París para bailar al aire libre al atardecer. Una velada festiva y gratuita, con los pies junto al agua, para celebrar la bella estación con la Salsa Cubana.",
+      "time": "19h00 – 23h00",
+      "venue": "Los Muelles de París (lugar por confirmar)",
+      "ambiance": "Veraniego, al aire libre, amigable"
+    }
+  },
+  "nights_badge_summer": "Verano",
+  "upcoming_events": {
+    "title": "Próximos eventos",
+    "subtitle": "No te pierdas ninguna de nuestras veladas especiales",
+    "learn_more": "Saber más",
+    "see_all": "Ver todos los eventos"
+  },
+  "about_preview": {
+    "title": "¿Quiénes somos?",
+    "text": "Somos Familia es una asociación dedicada a la promoción de la Salsa Cubana y las culturas afrolatinas. Fundada por apasionados, acogemos bailarines de todos los niveles con espíritu de familia y compartir.",
+    "cta": "Saber más"
+  },
+  "gallery_preview": {
+    "title": "Nuestros momentos compartidos",
+    "subtitle": "Una vida en imágenes"
+  },
+  "about": {
+    "meta_title": "Sobre nosotros — Somos Familia",
+    "meta_description": "Descubre la historia, los valores y el equipo de la asociación Somos Familia, dedicada a la Salsa Cubana en París.",
+    "hero_title": "Nuestra historia, nuestros valores",
+    "hero_subtitle": "Una asociación fundada en la pasión, la transmisión y el compartir de la cultura cubana.",
+    "history_title": "Nuestra historia",
+    "history_p1": "En 2018, dos apasionados deciden transformar su amor por la cultura cubana en algo más grande que ellos. Al principio, solo son talleres, encuentros, momentos sencillos donde la música reúne. Luego, muy rápidamente, la energía crece.",
+    "history_p2": "Las veladas semanales en el Sharky's se convierten en su terreno de juego: cinco años haciendo vibrar la pista, creando vínculos, viendo nacer amistades, hábitos y rituales. Cinco años en que cada viernes parecía escribir un nuevo capítulo.",
+    "history_p3": "Con el tiempo, la asociación se abre a otros horizontes: eventos puntuales, citas regulares, proyectos que toman forma al ritmo de los tambores, las voces y las sonrisas. Pero detrás de cada velada, cada taller, cada baile, hay una misión profunda: formar a jóvenes bailarines, acompañarlos, hacerlos crecer y, sobre todo, transmitirles la cultura cubana y afrocaribeña en toda su riqueza.",
+    "history_p4": "Lo que hace la fuerza de la asociación no es solo el baile.\nEs su espíritu.\nUn espíritu hecho de benevolencia, convivialidad y una verdadera familia de corazón.\nUn espíritu tan poderoso que le dio su nombre a la asociación: Somos Familia.",
+    "history_p5": "Y ese nombre no es casualidad. Viene de una canción — Somos Familia de Calle Real — que con los años se ha convertido en el himno de la asociación. Una melodía que reúne, que junta, que recuerda a cada uno por qué está aquí: para compartir, para aprender, para vibrar juntos.",
+    "history_p6": "Somos Familia no es solo un nombre.\nEs una promesa.\nLa de bailar juntos, crecer juntos, y hacer vivir la cultura cubana con el corazón.",
+    "values_title": "Nuestros valores",
+    "values_subtitle": "Tres pilares que guían cada una de nuestras acciones.",
+    "values": {
+      "community": {
+        "title": "Comunidad",
+        "description": "Somos una familia. Cada miembro es acogido con calidez, independientemente de su nivel o procedencia."
+      },
+      "passion": {
+        "title": "Pasión",
+        "description": "La Salsa Cubana es mucho más que un baile — es una forma de vida que compartimos con entusiasmo."
+      },
+      "authenticity": {
+        "title": "Autenticidad",
+        "description": "Respetamos y transmitimos los códigos culturales de Cuba, en toda su riqueza y diversidad."
+      }
+    },
+    "team_title": "Nuestro equipo",
+    "team_subtitle": "Voluntarios apasionados al servicio de la comunidad"
+  },
+  "events": {
+    "meta_title": "Veladas & Eventos — Somos Familia",
+    "meta_description": "Timbanight los martes, La Communale los jueves — todos los eventos de Somos Familia.",
+    "hero_title": "Veladas & Eventos",
+    "hero_subtitle": "Dos citas semanales y eventos especiales a lo largo del año.",
+    "regular_title": "Nuestras veladas regulares",
+    "regular_subtitle": "Citas ineludibles cada semana.",
+    "schedule_label": "Horarios",
+    "venue_label": "Lugar",
+    "ambiance_label": "Ambiente",
+    "exceptional_title": "Eventos especiales",
+    "exceptional_subtitle": "Talleres, conciertos y veladas especiales.",
+    "learn_more": "Saber más",
+    "date_tba": "Fecha por confirmar"
+  },
+  "join": {
+    "meta_title": "Únete — Somos Familia",
+    "meta_description": "Conviértete en voluntario o miembro de la asociación Somos Familia.",
+    "hero_title": "Únete a la familia",
+    "hero_subtitle": "Conviértete en voluntario o miembro y participa en la aventura Somos Familia.",
+    "volunteer_title": "Ser voluntario",
+    "volunteer_description": "Nuestra asociación funciona gracias a la energía y el compromiso de nuestros voluntarios. Ya sea 2h o 10h a la semana, hay una misión hecha para ti.",
+    "roles_title": "Lo que buscamos",
+    "roles": {
+      "communication": "Comunicación & Redes sociales",
+      "logistics": "Logística & Organización de veladas",
+      "photo": "Fotografía & Vídeo",
+      "animation": "Animación & Recepción",
+      "admin": "Gestión administrativa"
+    },
+    "form_title": "Formulario de candidatura voluntaria",
+    "form_subtitle": "Rellena este formulario y nos pondremos en contacto contigo pronto.",
+    "name_label": "Nombre completo",
+    "name_placeholder": "Tu nombre y apellidos",
+    "email_label": "Correo electrónico",
+    "email_placeholder": "tu@correo.com",
+    "motivation_label": "Motivación",
+    "motivation_placeholder": "¿Por qué quieres unirte a Somos Familia?",
+    "availability_label": "Disponibilidades (varias opciones posibles)",
+    "availability_tuesday": "Martes por la noche (Timbanight)",
+    "availability_thursday": "Jueves por la noche (La Communale)",
+    "availability_weekends": "Fines de semana",
+    "availability_remote": "Misiones a distancia",
+    "submit": "Enviar mi candidatura",
+    "success": "¡Gracias! Tu candidatura ha sido recibida. Nos pondremos en contacto contigo muy pronto.",
+    "membership_title": "Apoyar la asociación",
+    "membership_description": "Al convertirte en miembro, apoyas directamente nuestras acciones y te beneficias de ventajas exclusivas durante toda la temporada.",
+    "benefit_discount": "Precio reducido en veladas y eventos",
+    "benefit_stages": "Acceso prioritario a los talleres",
+    "benefit_newsletter": "Newsletter mensual exclusiva",
+    "benefit_vote": "Derecho a voto en las asambleas generales"
+  },
+  "gallery": {
+    "meta_title": "Galería — Somos Familia",
+    "meta_description": "Fotos y recuerdos de las veladas, talleres y eventos de Somos Familia.",
+    "hero_title": "Nuestra galería",
+    "hero_subtitle": "Momentos capturados a lo largo de las veladas, talleres y eventos.",
+    "filter_all": "Todo",
+    "filter_timbanight": "Timbanight",
+    "filter_communale": "La Communale",
+    "filter_events": "Eventos"
+  },
+  "contact": {
+    "meta_title": "Contacto — Somos Familia",
+    "meta_description": "Contacta con la asociación Somos Familia para cualquier pregunta sobre nuestras veladas y eventos.",
+    "hero_title": "Contáctanos",
+    "hero_subtitle": "¿Una pregunta? ¿Una idea? Estamos a tu disposición.",
+    "form_title": "Enviar un mensaje",
+    "name_label": "Nombre completo",
+    "name_placeholder": "Tu nombre y apellidos",
+    "email_label": "Correo electrónico",
+    "email_placeholder": "tu@correo.com",
+    "subject_label": "Asunto",
+    "subject_placeholder": "Asunto de tu mensaje",
+    "message_label": "Mensaje",
+    "message_placeholder": "Tu mensaje...",
+    "submit": "Enviar el mensaje",
+    "success": "¡Mensaje enviado! Te responderemos lo antes posible.",
+    "info_title": "Información práctica",
+    "address_label": "Dirección",
+    "address_value": "París, Île-de-France, Francia",
+    "email_contact": "contact@somosfamilia-salsa.fr",
+    "social_title": "Síguenos"
+  },
+  "footer": {
+    "description": "Asociación de Salsa Cubana con sede en París. ¡Únete a la familia!",
+    "quick_links": "Enlaces rápidos",
+    "follow_us": "Síguenos",
+    "contact_us": "Contacto rápido",
+    "copyright": "© 2024 Somos Familia. Todos los derechos reservados.",
+    "legal": "Aviso legal"
+  },
+  "common": {
+    "required": "Este campo es obligatorio",
+    "invalid_email": "Correo electrónico inválido",
+    "min_chars": "Mínimo {count} caracteres",
+    "loading": "Cargando...",
+    "close": "Cerrar",
+    "open_menu": "Abrir menú",
+    "close_menu": "Cerrar menú",
+    "change_language": "Cambiar idioma",
+    "back_home": "Volver al inicio"
+  }
+}

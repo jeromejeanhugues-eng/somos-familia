@@ -1,0 +1,133 @@
+export interface GalleryImage {
+  id: string;
+  src: string;
+  altFr: string;
+  altEs: string;
+  altEn: string;
+  category: 'timbanight' | 'communale' | 'events';
+  width: number;
+  height: number;
+}
+
+export const galleryImages: GalleryImage[] = [
+  {
+    id: 'g1',
+    src: 'https://picsum.photos/seed/sf-gal-1/800/1000',
+    altFr: 'Couples dansant lors du Timbanight',
+    altEs: 'Parejas bailando en el Timbanight',
+    altEn: 'Couples dancing at Timbanight',
+    category: 'timbanight',
+    width: 800,
+    height: 1000,
+  },
+  {
+    id: 'g2',
+    src: 'https://picsum.photos/seed/sf-gal-2/800/600',
+    altFr: 'Ambiance festive à La Communale',
+    altEs: 'Ambiente festivo en La Communale',
+    altEn: 'Festive atmosphere at La Communale',
+    category: 'communale',
+    width: 800,
+    height: 600,
+  },
+  {
+    id: 'g3',
+    src: 'https://picsum.photos/seed/sf-gal-3/800/1100',
+    altFr: 'Scène du Festival Salsa Paris 2023',
+    altEs: 'Escena del Festival Salsa París 2023',
+    altEn: 'Scene from Paris Salsa Festival 2023',
+    category: 'events',
+    width: 800,
+    height: 1100,
+  },
+  {
+    id: 'g4',
+    src: 'https://picsum.photos/seed/sf-gal-4/800/700',
+    altFr: 'Rueda de Casino en plein air',
+    altEs: 'Rueda de Casino al aire libre',
+    altEn: 'Outdoor Rueda de Casino',
+    category: 'events',
+    width: 800,
+    height: 700,
+  },
+  {
+    id: 'g5',
+    src: 'https://picsum.photos/seed/sf-gal-5/800/900',
+    altFr: 'DJ Marco en action au Timbanight',
+    altEs: 'DJ Marco en acción en el Timbanight',
+    altEn: 'DJ Marco in action at Timbanight',
+    category: 'timbanight',
+    width: 800,
+    height: 900,
+  },
+  {
+    id: 'g6',
+    src: 'https://picsum.photos/seed/sf-gal-6/800/600',
+    altFr: 'Cours d\'initiation à La Communale',
+    altEs: 'Clase de iniciación en La Communale',
+    altEn: 'Intro class at La Communale',
+    category: 'communale',
+    width: 800,
+    height: 600,
+  },
+  {
+    id: 'g7',
+    src: 'https://picsum.photos/seed/sf-gal-7/800/1050',
+    altFr: 'Anniversaire de l\'association Somos Familia',
+    altEs: 'Aniversario de la asociación Somos Familia',
+    altEn: 'Somos Familia anniversary party',
+    category: 'events',
+    width: 800,
+    height: 1050,
+  },
+  {
+    id: 'g8',
+    src: 'https://picsum.photos/seed/sf-gal-8/800/650',
+    altFr: 'Soirée Timbanight ambiance piste de danse',
+    altEs: 'Velada Timbanight ambiente pista de baile',
+    altEn: 'Timbanight dance floor atmosphere',
+    category: 'timbanight',
+    width: 800,
+    height: 650,
+  },
+  {
+    id: 'g9',
+    src: 'https://picsum.photos/seed/sf-gal-9/800/800',
+    altFr: 'Stage Body Movement avec les professeurs invités',
+    altEs: 'Taller Body Movement con los profesores invitados',
+    altEn: 'Body Movement workshop with guest teachers',
+    category: 'events',
+    width: 800,
+    height: 800,
+  },
+  {
+    id: 'g10',
+    src: 'https://picsum.photos/seed/sf-gal-10/800/1000',
+    altFr: 'Soirée La Communale, sourires et partage',
+    altEs: 'Velada La Communale, sonrisas y compartir',
+    altEn: 'La Communale night, smiles and sharing',
+    category: 'communale',
+    width: 800,
+    height: 1000,
+  },
+  {
+    id: 'g11',
+    src: 'https://picsum.photos/seed/sf-gal-11/800/600',
+    altFr: 'Concert Timba Cubana Live à La Bellevilloise',
+    altEs: 'Concierto Timba Cubana Live en La Bellevilloise',
+    altEn: 'Live Cuban Timba Concert at La Bellevilloise',
+    category: 'events',
+    width: 800,
+    height: 600,
+  },
+  {
+    id: 'g12',
+    src: 'https://picsum.photos/seed/sf-gal-12/800/950',
+    altFr: 'L\'équipe de Somos Familia ensemble',
+    altEs: 'El equipo de Somos Familia juntos',
+    altEn: 'The Somos Familia team together',
+    category: 'events',
+    width: 800,
+    height: 950,
+  },
+];

@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-dark text-light font-inter;
+}
+
+::selection {
+  background-color: #C9A84C;
+  color: #0A0A0A;
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-gold text-dark font-semibold px-6 py-3 rounded-none hover:bg-gold-light transition-colors duration-200;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 border border-gold text-gold font-semibold px-6 py-3 rounded-none hover:bg-gold hover:text-dark transition-colors duration-200;
+  }
+
+  .btn-outline-light {
+    @apply inline-flex items-center gap-2 border border-light text-light font-semibold px-6 py-3 rounded-none hover:bg-light hover:text-dark transition-colors duration-200;
+  }
+
+  .section-padding {
+    @apply py-20 px-4 md:px-8 lg:px-16;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto;
+  }
+
+  .gold-line {
+    @apply block w-12 h-0.5 bg-gold mb-4;
+  }
+
+  .input-field {
+    @apply w-full bg-transparent border border-light/20 text-light px-4 py-3 focus:outline-none focus:border-gold transition-colors duration-200 placeholder:text-light/40;
+  }
+
+  .input-error {
+    @apply border-red-500 focus:border-red-500;
+  }
+}
+
+.masonry-grid {
+  columns: 1;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .masonry-grid { columns: 2; }
+}
+
+@media (min-width: 1024px) {
+  .masonry-grid { columns: 3; }
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+}

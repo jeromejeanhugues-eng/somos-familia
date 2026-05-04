@@ -1,0 +1,206 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "events": "Nights & Events",
+    "join": "Join us",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Cuban Salsa in the heart of Paris",
+    "subtitle": "Somos Familia — a passionate community celebrating dance, music and togetherness through Cuban Salsa.",
+    "cta_join": "Join us",
+    "cta_events": "See events"
+  },
+  "nights": {
+    "title": "Our regular nights",
+    "subtitle": "Three gatherings to dance, connect and share.",
+    "timbanight": {
+      "name": "Timbanight",
+      "day": "Every Tuesday",
+      "subtitle": "The Timba & Cuban Salsa night",
+      "description": "Every Tuesday from 19 May at Colonel Fabien (Paris 10th) for salsa classes and a mix night 70% Cuban / 30% bachata. Enjoy a friendly atmosphere for only €5 all inclusive (class, evening & cloakroom) from 7 PM to 1 AM! 💃🔥",
+      "time": "7 PM – midnight",
+      "venue": "Generator Paris",
+      "ambiance": "Friendly and family-like"
+    },
+    "communale": {
+      "name": "La Communale Salsa Party",
+      "day": "Every Thursday",
+      "subtitle": "The Cuban Salsa night for everyone",
+      "description": "Discover the new season at La Communale (Saint-Ouen) with a salsa class by Ibra followed by a free latin mix night. A friendly evening blending dance, gastronomy and culture in the historic MAN hall for just €5 per class!",
+      "time": "7 PM – midnight",
+      "venue": "Communale Saint-Ouen",
+      "ambiance": "Warm"
+    },
+    "nochecubana": {
+      "name": "La Noche Cubana",
+      "day": "Every 2nd Saturday of the month",
+      "subtitle": "The month's big Cuban Salsa night",
+      "description": "Join us every 2nd Saturday of the month at Jo&Joe Gentilly for the Noche Cubana — an explosive night with salsa classes and a Cuban mix. Enjoy a unique setting and a friendly atmosphere until 1:30 AM for just €12 all inclusive!",
+      "time": "8 PM – 1:30 AM",
+      "venue": "Jo&Joe Gentilly, 89-93 Av. Paul Vaillant Couturier, 94250 Gentilly",
+      "ambiance": "Family-like and Cuban"
+    },
+    "quaisalsa": {
+      "name": "Quai en Salsa",
+      "day": "Every Sunday · 25 June – end of August",
+      "subtitle": "Cuban Salsa in the open air",
+      "description": "All summer long, join us on the banks of the Seine to dance outdoors at sunset. A festive and free event, feet by the water, celebrating the season with Cuban Salsa.",
+      "time": "7 PM – 11 PM",
+      "venue": "Paris riverbanks (venue TBC)",
+      "ambiance": "Summer vibes, outdoor, friendly"
+    }
+  },
+  "nights_badge_summer": "Summer",
+  "upcoming_events": {
+    "title": "Upcoming events",
+    "subtitle": "Don't miss any of our special nights",
+    "learn_more": "Learn more",
+    "see_all": "See all events"
+  },
+  "about_preview": {
+    "title": "Who are we?",
+    "text": "Somos Familia is an association dedicated to promoting Cuban Salsa and Afro-Latin cultures. Founded by enthusiasts, we welcome dancers of all levels in a spirit of family and sharing.",
+    "cta": "Learn more"
+  },
+  "gallery_preview": {
+    "title": "Our shared moments",
+    "subtitle": "Life in pictures"
+  },
+  "about": {
+    "meta_title": "About — Somos Familia",
+    "meta_description": "Discover the history, values and team of the Somos Familia association, dedicated to Cuban Salsa in Paris.",
+    "hero_title": "Our story, our values",
+    "hero_subtitle": "An association built on passion, transmission and the sharing of Cuban culture.",
+    "history_title": "Our story",
+    "history_p1": "In 2018, two passionate individuals decided to transform their love of Cuban culture into something bigger than themselves. At first, it was just workshops, encounters, simple moments where music brought people together. Then, very quickly, the energy grew.",
+    "history_p2": "The weekly nights at Sharky's became their playground: five years of making the dance floor vibrate, building connections, watching friendships, routines and rituals come to life. Five years where every Friday seemed to write a new chapter.",
+    "history_p3": "Over time, the association opened up to new horizons: one-off events, regular gatherings, projects taking shape to the rhythm of drums, voices and smiles. But behind every night, every workshop, every dance, there is a deeper mission: to train young dancers, support them, help them grow, and above all pass on the richness of Cuban and Afro-Caribbean culture.",
+    "history_p4": "What makes this association strong is not just the dancing.\nIt's the spirit.\nA spirit built on kindness, togetherness, and a true family of the heart.\nA spirit so powerful that it gave the association its name: Somos Familia.",
+    "history_p5": "And that name is no coincidence. It comes from a song — Somos Familia by Calle Real — which over the years has become the association's anthem. A melody that unites, that gathers, that reminds everyone why they are here: to share, to learn, to feel alive together.",
+    "history_p6": "Somos Familia is not just a name.\nIt's a promise.\nA promise to dance together, grow together, and keep Cuban culture alive — with heart.",
+    "values_title": "Our values",
+    "values_subtitle": "Three pillars that guide everything we do.",
+    "values": {
+      "community": {
+        "title": "Community",
+        "description": "We are a family. Every member is welcomed warmly, regardless of their level or background."
+      },
+      "passion": {
+        "title": "Passion",
+        "description": "Cuban Salsa is much more than a dance — it's a way of life that we share with enthusiasm."
+      },
+      "authenticity": {
+        "title": "Authenticity",
+        "description": "We respect and transmit the cultural codes of Cuba, in all their richness and diversity."
+      }
+    },
+    "team_title": "Our team",
+    "team_subtitle": "Passionate volunteers serving the community"
+  },
+  "events": {
+    "meta_title": "Nights & Events — Somos Familia",
+    "meta_description": "Timbanight on Tuesdays, La Communale on Thursdays — all Somos Familia events.",
+    "hero_title": "Nights & Events",
+    "hero_subtitle": "Two weekly gatherings and special events throughout the year.",
+    "regular_title": "Our regular nights",
+    "regular_subtitle": "Must-attend events every week.",
+    "schedule_label": "Schedule",
+    "venue_label": "Venue",
+    "ambiance_label": "Vibe",
+    "exceptional_title": "Special events",
+    "exceptional_subtitle": "Workshops, concerts and special nights not to be missed.",
+    "learn_more": "Learn more",
+    "date_tba": "Date to be confirmed"
+  },
+  "join": {
+    "meta_title": "Join us — Somos Familia",
+    "meta_description": "Become a volunteer or member of the Somos Familia association.",
+    "hero_title": "Join the family",
+    "hero_subtitle": "Become a volunteer or member and be part of the Somos Familia adventure.",
+    "volunteer_title": "Become a volunteer",
+    "volunteer_description": "Our association runs thanks to the energy and commitment of our volunteers. Whether you have 2 or 10 hours a week, there's a role made for you.",
+    "roles_title": "What we're looking for",
+    "roles": {
+      "communication": "Communication & Social media",
+      "logistics": "Logistics & Event organisation",
+      "photo": "Photography & Video",
+      "animation": "Entertainment & Welcoming",
+      "admin": "Administrative management"
+    },
+    "form_title": "Volunteer application",
+    "form_subtitle": "Fill in this form and we'll get back to you quickly.",
+    "name_label": "Full name",
+    "name_placeholder": "Your first and last name",
+    "email_label": "Email address",
+    "email_placeholder": "you@email.com",
+    "motivation_label": "Motivation",
+    "motivation_placeholder": "Why do you want to join Somos Familia?",
+    "availability_label": "Availability (multiple choices possible)",
+    "availability_tuesday": "Tuesday evenings (Timbanight)",
+    "availability_thursday": "Thursday evenings (La Communale)",
+    "availability_weekends": "Weekends",
+    "availability_remote": "Remote tasks",
+    "submit": "Send my application",
+    "success": "Thank you! Your application has been received. We'll be in touch very soon.",
+    "membership_title": "Support the association",
+    "membership_description": "By becoming a member, you directly support our activities and enjoy exclusive benefits throughout the season.",
+    "benefit_discount": "Reduced price on nights and events",
+    "benefit_stages": "Priority access to workshops",
+    "benefit_newsletter": "Exclusive monthly newsletter",
+    "benefit_vote": "Voting rights at general meetings"
+  },
+  "gallery": {
+    "meta_title": "Gallery — Somos Familia",
+    "meta_description": "Photos and memories from Somos Familia nights, workshops and events.",
+    "hero_title": "Our gallery",
+    "hero_subtitle": "Moments captured across nights, workshops and events.",
+    "filter_all": "All",
+    "filter_timbanight": "Timbanight",
+    "filter_communale": "La Communale",
+    "filter_events": "Events"
+  },
+  "contact": {
+    "meta_title": "Contact — Somos Familia",
+    "meta_description": "Contact the Somos Familia association for any questions about our nights and events.",
+    "hero_title": "Get in touch",
+    "hero_subtitle": "A question? An idea? We're all ears.",
+    "form_title": "Send a message",
+    "name_label": "Full name",
+    "name_placeholder": "Your first and last name",
+    "email_label": "Email address",
+    "email_placeholder": "you@email.com",
+    "subject_label": "Subject",
+    "subject_placeholder": "Subject of your message",
+    "message_label": "Message",
+    "message_placeholder": "Your message...",
+    "submit": "Send message",
+    "success": "Message sent! We'll get back to you as soon as possible.",
+    "info_title": "Practical information",
+    "address_label": "Address",
+    "address_value": "Paris, Île-de-France, France",
+    "email_contact": "contact@somosfamilia-salsa.fr",
+    "social_title": "Follow us"
+  },
+  "footer": {
+    "description": "Cuban Salsa association based in Paris. Join the family!",
+    "quick_links": "Quick links",
+    "follow_us": "Follow us",
+    "contact_us": "Quick contact",
+    "copyright": "© 2024 Somos Familia. All rights reserved.",
+    "legal": "Legal notice"
+  },
+  "common": {
+    "required": "This field is required",
+    "invalid_email": "Invalid email address",
+    "min_chars": "Minimum {count} characters",
+    "loading": "Loading...",
+    "close": "Close",
+    "open_menu": "Open menu",
+    "close_menu": "Close menu",
+    "change_language": "Change language",
+    "back_home": "Back to home"
+  }
+}
