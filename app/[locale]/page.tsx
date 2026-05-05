@@ -77,7 +77,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
         aria-label="Hero"
       >
         <Image
-          src="https://picsum.photos/seed/sf-hero/1920/1080"
+          src="/hero.jpg"
           alt=""
           fill
           priority
