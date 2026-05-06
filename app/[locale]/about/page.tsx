@@ -5,8 +5,6 @@ import Image from 'next/image';
 import { Heart, Flame, Star } from 'lucide-react';
 import AnimatedSection from '@/components/AnimatedSection';
 import SectionTitle from '@/components/SectionTitle';
-import TeamCard from '@/components/TeamCard';
-import { teamMembers } from '@/data/team';
 import type { Locale } from '@/navigation';
 
 export const metadata: Metadata = {
@@ -20,8 +18,6 @@ const valueIcons = [Heart, Flame, Star];
 export default function AboutPage({ params: { locale } }: { params: { locale: string } }) {
   setRequestLocale(locale);
   const t = useTranslations('about');
-  const typedLocale = locale as Locale;
-
   const values = [
     { key: 'community', Icon: valueIcons[0] },
     { key: 'passion', Icon: valueIcons[1] },
@@ -144,26 +140,7 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
         </div>
       </section>
 
-      {/* ── ÉQUIPE ── */}
-      <section className="section-padding bg-dark border-t border-light/5">
-        <div className="container-custom">
-          <AnimatedSection>
-            <SectionTitle
-              title={t('team_title')}
-              subtitle={t('team_subtitle')}
-              centered
-            />
-          </AnimatedSection>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 mt-4">
-            {teamMembers.map((member, i) => (
-              <AnimatedSection key={member.id} delay={i * 0.1}>
-                <TeamCard member={member} locale={typedLocale} />
-              </AnimatedSection>
-            ))}
-          </div>
-        </div>
-      </section>
     </>
   );
 }
