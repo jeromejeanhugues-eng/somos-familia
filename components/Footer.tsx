@@ -58,7 +58,7 @@ export default function Footer() {
                 <Facebook size={20} />
               </a>
               <a
-                href="mailto:contact@somosfamilia-salsa.fr"
+                href="mailto:somosfamilia9575@gmail.com"
                 aria-label="Email"
                 className="text-light/40 hover:text-gold transition-colors duration-200"
               >
@@ -95,10 +95,10 @@ export default function Footer() {
               <li>Paris, Île-de-France</li>
               <li>
                 <a
-                  href="mailto:contact@somosfamilia-salsa.fr"
+                  href="mailto:somosfamilia9575@gmail.com"
                   className="hover:text-gold transition-colors duration-200"
                 >
-                  contact@somosfamilia-salsa.fr
+                  somosfamilia9575@gmail.com
                 </a>
               </li>
               <li className="pt-2">
