@@ -81,12 +81,6 @@ export default function Header() {
         {/* Right side */}
         <div className="flex items-center gap-4">
           <LanguageSwitcher />
-          <Link
-            href="/join"
-            className="hidden md:inline-flex btn-primary text-sm py-2 px-4"
-          >
-            {t('join')}
-          </Link>
 
           {/* Burger */}
           <button
