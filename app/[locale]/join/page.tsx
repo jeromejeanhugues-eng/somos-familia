@@ -131,7 +131,7 @@ export default function JoinPage({ params: { locale } }: { params: { locale: str
                 <p className="font-playfair text-6xl font-bold text-light mb-2">20<span className="text-3xl text-light/60">€</span></p>
                 <p className="text-light/40 text-sm mb-8">par saison (septembre – juin)</p>
                 <a
-                  href="mailto:contact@somosfamilia-salsa.fr?subject=Adhésion Somos Familia"
+                  href="mailto:somosfamilia9575@gmail.com?subject=Adhésion Somos Familia"
                   className="btn-primary w-full justify-center"
                 >
                   Devenir adhérent
