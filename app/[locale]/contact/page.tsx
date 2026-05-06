@@ -120,11 +120,11 @@ export default function ContactPage({ params: { locale } }: { params: { locale: 
                   <div className="space-y-3 text-light/50 text-sm">
                     <div>
                       <p className="font-semibold text-light/80">Timbanight</p>
-                      <p>Chaque mardi · 21h00 – 02h00</p>
+                      <p>Chaque mardi · 19h00 – 00h00</p>
                     </div>
                     <div>
-                      <p className="font-semibold text-light/80">La Communale</p>
-                      <p>Chaque jeudi · 20h00 – 01h00</p>
+                      <p className="font-semibold text-light/80">La Communale Salsa Party</p>
+                      <p>Chaque jeudi · 19h00 – 00h00</p>
                     </div>
                   </div>
                 </div>
