@@ -40,7 +40,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-4 mt-6">
               <a
-                href="https://instagram.com/somosfamilia.salsa"
+                href="https://www.instagram.com/somos_familiaparis?igsh=OTN4Y3Z1ZGJvbGxk"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
