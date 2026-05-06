@@ -61,12 +61,12 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
   };
 
   const previewImages = [
-    'https://picsum.photos/seed/sf-prev-1/600/400',
-    'https://picsum.photos/seed/sf-prev-2/600/600',
-    'https://picsum.photos/seed/sf-prev-3/600/400',
-    'https://picsum.photos/seed/sf-prev-4/600/700',
-    'https://picsum.photos/seed/sf-prev-5/600/400',
-    'https://picsum.photos/seed/sf-prev-6/600/500',
+    '/galerie/galerie-1.jpg',
+    '/galerie/galerie-2.jpg',
+    '/galerie/galerie-3.jpg',
+    '/galerie/galerie-4.jpg',
+    '/galerie/galerie-5.jpg',
+    '/galerie/galerie-6.jpg',
   ];
 
   return (
