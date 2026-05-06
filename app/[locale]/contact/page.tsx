@@ -101,7 +101,7 @@ export default function ContactPage({ params: { locale } }: { params: { locale: 
                       <span>Instagram</span>
                     </a>
                     <a
-                      href="https://facebook.com/somosfamiliasalsa"
+                      href="https://www.facebook.com/profile.php?id=100063541062260"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Facebook"
