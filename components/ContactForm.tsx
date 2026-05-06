@@ -5,7 +5,7 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { useTranslations } from 'next-intl';
-import { Send, CheckCircle } from 'lucide-react';
+import { Send, CheckCircle, AlertCircle } from 'lucide-react';
 
 const schema = z.object({
   name: z.string().min(2),
@@ -20,6 +20,7 @@ export default function ContactForm() {
   const t = useTranslations('contact');
   const tc = useTranslations('common');
   const [submitted, setSubmitted] = useState(false);
+  const [serverError, setServerError] = useState(false);
 
   const {
     register,
@@ -27,22 +28,42 @@ export default function ContactForm() {
     formState: { errors, isSubmitting },
   } = useForm<FormData>({ resolver: zodResolver(schema) });
 
-  async function onSubmit(_data: FormData) {
-    await new Promise((r) => setTimeout(r, 800));
-    setSubmitted(true);
+  async function onSubmit(data: FormData) {
+    setServerError(false);
+    try {
+      const res = await fetch('https://formspree.io/f/mrejlggn', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({ ...data, _subject: 'Nouveau message - Contact' }),
+      });
+      if (res.ok) {
+        setSubmitted(true);
+      } else {
+        setServerError(true);
+      }
+    } catch {
+      setServerError(true);
+    }
   }
 
   if (submitted) {
     return (
       <div className="flex flex-col items-center justify-center py-16 text-center">
         <CheckCircle size={48} className="text-gold mb-4" />
-        <p className="text-light text-lg font-playfair">{t('success')}</p>
+        <p className="text-light text-lg font-playfair">Message envoyé ! Nous vous répondrons dans les plus brefs délais.</p>
       </div>
     );
   }
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} noValidate className="space-y-6">
+      {serverError && (
+        <div className="flex items-center gap-3 bg-red-900/20 border border-red-500/30 text-red-400 text-sm px-4 py-3">
+          <AlertCircle size={16} className="flex-shrink-0" />
+          Une erreur est survenue lors de l&apos;envoi. Veuillez réessayer ou nous contacter par email.
+        </div>
+      )}
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
           <label htmlFor="name" className="block text-sm text-light/60 mb-2">
