@@ -86,7 +86,7 @@ export default function JoinPage({ params: { locale } }: { params: { locale: str
 
               <div className="relative aspect-video overflow-hidden">
                 <Image
-                  src="https://picsum.photos/seed/sf-volunteer/800/450"
+                  src="/benevole.jpeg"
                   alt="Bénévoles Somos Familia"
                   fill
                   className="object-cover"
