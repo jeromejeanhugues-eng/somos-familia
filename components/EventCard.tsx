@@ -15,6 +15,9 @@ const categoryColors: Record<Event['category'], string> = {
   concert: 'bg-purple-900/60 text-purple-300',
   special: 'bg-gold/20 text-gold',
   anniversary: 'bg-red-900/60 text-red-300',
+  weekly: 'bg-gold/20 text-gold',
+  monthly: 'bg-rose-900/60 text-rose-300',
+  summer: 'bg-cyan-900/60 text-cyan-300',
 };
 
 const categoryLabels: Record<Event['category'], string> = {
@@ -22,6 +25,9 @@ const categoryLabels: Record<Event['category'], string> = {
   concert: 'Concert',
   special: 'Spécial',
   anniversary: 'Anniversaire',
+  weekly: 'Hebdomadaire',
+  monthly: 'Mensuel',
+  summer: 'Été',
 };
 
 export default function EventCard({ event, locale, learnMoreLabel }: Props) {
