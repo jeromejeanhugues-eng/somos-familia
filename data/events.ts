@@ -126,7 +126,7 @@ const nocheEvents: Event[] = nocheDates.map((d, i) => ({
   descriptionFr: 'Cours de salsa cubaine + mix cubano explosif. 12€ tout compris.',
   descriptionEs: 'Clase de salsa cubana + mix cubano explosivo. 12€ todo incluido.',
   descriptionEn: 'Cuban salsa class + explosive Cuban mix. €12 all inclusive.',
-  image: 'https://picsum.photos/seed/sf-nochecubana/800/450',
+  image: '/flyers/noche-cubana.jpeg',
   category: 'monthly',
 }));
 
@@ -143,7 +143,7 @@ const quaiEvents: Event[] = quaiDates.map((d, i) => ({
   descriptionFr: 'Salsa cubaine en plein air au bord de la Seine. Entrée gratuite.',
   descriptionEs: 'Salsa cubana al aire libre junto al Sena. Entrada gratuita.',
   descriptionEn: 'Cuban salsa outdoors by the Seine. Free entry.',
-  image: 'https://picsum.photos/seed/sf-quaisalsa/800/450',
+  image: '/flyers/quai-salsa.jpeg',
   category: 'summer',
 }));
 
