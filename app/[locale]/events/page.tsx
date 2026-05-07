@@ -209,7 +209,7 @@ export default function EventsPage({ params: { locale } }: { params: { locale: s
             <AnimatedSection direction="left">
               <div className="relative aspect-video overflow-hidden">
                 <Image
-                  src="https://picsum.photos/seed/sf-nochecubana/800/450"
+                  src="/flyers/noche-cubana.jpeg"
                   alt="La Noche Cubana"
                   fill
                   className="object-cover"
@@ -243,7 +243,7 @@ export default function EventsPage({ params: { locale } }: { params: { locale: s
             <AnimatedSection direction="right" className="order-first lg:order-last">
               <div className="relative aspect-video overflow-hidden">
                 <Image
-                  src="https://picsum.photos/seed/sf-quaisalsa/800/450"
+                  src="/flyers/quai-salsa.jpeg"
                   alt="Quai en Salsa"
                   fill
                   className="object-cover"
