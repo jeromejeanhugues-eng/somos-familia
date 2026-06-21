@@ -30,11 +30,11 @@ const SOIREES = [
     badge: null,
     featured: false,
   },
-  {
+    {
     icon: "🌊",
     title: "Quais de Seine — Dimanche",
-    sub: "La Réole n°2 · Dès le 25 juin",
-    href: "https://www.instagram.com/somosfamilia_paris",
+    sub: "L'Alvéole n°2 · Dès le 25 juin",
+    href: "https://www.instagram.com/somos_familiaparis?igsh=OTN4Y3Z1ZGJvbGxk",
     badge: "Été 2026",
     featured: false,
   },
@@ -70,10 +70,9 @@ const SERVICES = [
 ];
 
 const SOCIALS = [
-  { label: "Insta YugoBeats", icon: "📸", href: "https://www.instagram.com/djyugobeats" },
-  { label: "Insta Somos Familia", icon: "🎭", href: "https://www.instagram.com/somosfamilia_paris" },
-  { label: "Facebook", icon: "📘", href: "https://www.facebook.com/somosfamiliaparis" },
-  { label: "WhatsApp", icon: "📱", href: "https://wa.me/33600000000" }, // ← mets ton vrai numéro
+  { label: "Insta DJ YugoBeats", icon: "📸", href: "https://www.instagram.com/jeanhughes_971/" },
+  { label: "Insta Somos Familia", icon: "🎭", href: "https://www.instagram.com/somos_familiaparis?igsh=OTN4Y3Z1ZGJvbGxk" },
+  { label: "Facebook Communale", icon: "📘", href: "https://facebook.com/events/s/communale-salsa-party-ibra-dj-/2115929309156599/" },
 ];
 // ─────────────────────────────────────────────
 
