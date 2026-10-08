@@ -61,6 +61,16 @@ export default function EventsPage({ params: { locale } }: { params: { locale: s
     ambiance: tn('quaisalsa.ambiance'),
   };
 
+  const sbk = {
+    name: tn('sbk.name'),
+    day: tn('sbk.day'),
+    subtitle: tn('sbk.subtitle'),
+    description: tn('sbk.description'),
+    time: tn('sbk.time'),
+    venue: tn('sbk.venue'),
+    ambiance: tn('sbk.ambiance'),
+  };
+
   return (
     <>
       {/* ── HERO ── */}
@@ -97,7 +107,7 @@ export default function EventsPage({ params: { locale } }: { params: { locale: s
             />
           </AnimatedSection>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0 sm:gap-px bg-light/5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-0 sm:gap-px bg-light/5">
             <AnimatedSection delay={0.1}>
               <NightCard night={timbanight} variant="timbanight" />
             </AnimatedSection>
@@ -105,9 +115,12 @@ export default function EventsPage({ params: { locale } }: { params: { locale: s
               <NightCard night={communale} variant="communale" />
             </AnimatedSection>
             <AnimatedSection delay={0.3}>
-              <NightCard night={nocheCubana} variant="nochecubana" />
+              <NightCard night={sbk} variant="sbk" />
             </AnimatedSection>
             <AnimatedSection delay={0.4}>
+              <NightCard night={nocheCubana} variant="nochecubana" />
+            </AnimatedSection>
+            <AnimatedSection delay={0.5}>
               <NightCard night={quaiSalsa} variant="quaisalsa" />
             </AnimatedSection>
           </div>
@@ -268,6 +281,52 @@ export default function EventsPage({ params: { locale } }: { params: { locale: s
                 <li>🕖 19h00 – 23h00</li>
                 <li>🌊 En plein air, au bord de la Seine</li>
                 <li>🎉 Entrée gratuite — venez comme vous êtes !</li>
+              </ul>
+            </AnimatedSection>
+          </div>
+          {/* Détail Soirée SBK */}
+          <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-start border-t border-light/5 pt-16">
+            <AnimatedSection direction="left" className="flex justify-center">
+              <div className="group relative max-w-xs w-full">
+                <div className="absolute -inset-1 bg-purple-500/20 blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-sm" />
+                <a
+                  href="/flyers/sbk.jpeg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Voir le flyer Soirée SBK en grand"
+                  className="relative block border border-light/10 group-hover:border-purple-400/40 transition-colors duration-300 overflow-hidden"
+                >
+                  <Image
+                    src="/flyers/sbk.jpeg"
+                    alt="Flyer officiel Soirée SBK"
+                    width={400}
+                    height={566}
+                    className="w-full h-auto object-contain group-hover:scale-[1.02] transition-transform duration-500"
+                    sizes="(max-width: 1024px) 80vw, 40vw"
+                  />
+                  <div className="absolute inset-0 bg-dark/0 group-hover:bg-dark/20 transition-colors duration-300 flex items-center justify-center">
+                    <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-dark/80 text-light text-xs font-semibold uppercase tracking-widest px-4 py-2 border border-light/20">
+                      Voir en grand
+                    </span>
+                  </div>
+                </a>
+                <p className="text-center text-light/30 text-xs mt-3 uppercase tracking-widest">Affiche officielle</p>
+              </div>
+            </AnimatedSection>
+            <AnimatedSection direction="right">
+              <span className="text-purple-400 text-xs uppercase tracking-[0.2em] font-bold">Soirée SBK</span>
+              <h2 className="font-playfair text-3xl font-bold text-light mt-3 mb-4">
+                Salsa · Bachata · Kizomba
+              </h2>
+              <p className="text-light/50 leading-relaxed mb-6">
+                Chaque mercredi soir au Feeling Good à Colombes, venez explorer trois danses en une seule soirée. Cours pour tous les niveaux, puis social dancing jusqu&apos;à minuit dans une ambiance détendue et festive.
+              </p>
+              <ul className="space-y-2 text-light/50 text-sm">
+                <li>🎵 Salsa, Bachata & Kizomba</li>
+                <li>🎧 Lucas & guests</li>
+                <li>💃 Cours tous niveaux</li>
+                <li>🚪 Entrée gratuite</li>
+                <li>📍 Feeling Good — 12 Av. Kléber, Colombes</li>
               </ul>
             </AnimatedSection>
           </div>

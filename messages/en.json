@@ -51,6 +51,15 @@
       "time": "7 PM – 11 PM",
       "venue": "Paris riverbanks (venue TBC)",
       "ambiance": "Summer vibes, outdoor, friendly"
+    },
+    "sbk": {
+      "name": "SBK Night",
+      "day": "Every Wednesday",
+      "subtitle": "Salsa · Bachata · Kizomba",
+      "description": "Every Wednesday, join us at Feeling Good in Colombes for a must-attend SBK night: Salsa, Bachata and Kizomba class followed by a social dancing session. Free entry, great vibes guaranteed!",
+      "time": "8 PM – midnight",
+      "venue": "Feeling Good — 12 Av. Kléber, Colombes",
+      "ambiance": "Relaxed and festive"
     }
   },
   "nights_badge_summer": "Summer",

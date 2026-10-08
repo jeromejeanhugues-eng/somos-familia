@@ -14,7 +14,7 @@ interface NightData {
 
 interface Props {
   night: NightData;
-  variant: 'timbanight' | 'communale' | 'nochecubana' | 'quaisalsa';
+  variant: 'timbanight' | 'communale' | 'nochecubana' | 'quaisalsa' | 'sbk';
   learnMoreLabel?: string;
 }
 
@@ -42,6 +42,12 @@ const variantStyles = {
     badge: 'bg-cyan-900/20 text-cyan-300 border border-cyan-600/30',
     tag: 'QUAI EN SALSA',
     summer: true,
+  },
+  sbk: {
+    accent: 'border-purple-500',
+    badge: 'bg-purple-900/20 text-purple-300 border border-purple-500/30',
+    tag: 'SOIRÉE SBK',
+    summer: false,
   },
 };
 

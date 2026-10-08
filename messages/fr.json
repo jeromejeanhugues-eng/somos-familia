@@ -51,6 +51,15 @@
       "time": "19h00 – 23h00",
       "venue": "Les Quais de Paris (lieu à confirmer)",
       "ambiance": "Estival, en plein air, convivial"
+    },
+    "sbk": {
+      "name": "Soirée SBK",
+      "day": "Chaque mercredi",
+      "subtitle": "Salsa · Bachata · Kizomba",
+      "description": "Chaque mercredi, rejoignez-nous au Feeling Good à Colombes pour une soirée SBK incontournable : cours de Salsa, Bachata et Kizomba suivi d'une session de social dancing. Entrée gratuite, ambiance garantie !",
+      "time": "20h00 – 00h00",
+      "venue": "Feeling Good — 12 Av. Kléber, Colombes",
+      "ambiance": "Décontractée et festive"
     }
   },
   "nights_badge_summer": "Été",

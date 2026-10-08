@@ -51,6 +51,15 @@
       "time": "19h00 – 23h00",
       "venue": "Los Muelles de París (lugar por confirmar)",
       "ambiance": "Veraniego, al aire libre, amigable"
+    },
+    "sbk": {
+      "name": "Velada SBK",
+      "day": "Cada miércoles",
+      "subtitle": "Salsa · Bachata · Kizomba",
+      "description": "Cada miércoles, ven al Feeling Good en Colombes para una velada SBK imprescindible: clase de Salsa, Bachata y Kizomba seguida de una sesión de baile social. ¡Entrada gratuita, ambiente asegurado!",
+      "time": "20h00 – 00h00",
+      "venue": "Feeling Good — 12 Av. Kléber, Colombes",
+      "ambiance": "Relajada y festiva"
     }
   },
   "nights_badge_summer": "Verano",
