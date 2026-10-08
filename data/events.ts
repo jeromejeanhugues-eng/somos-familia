@@ -78,6 +78,7 @@ const timbanightDates = getNextWeekdays(2, 4, new Date('2025-05-19'));
 const communaleDates = getNextWeekdays(4, 4);
 const nocheDates = getNext2ndSaturdays(3);
 const quaiDates = getDimanchesEte(4, new Date('2025-06-25'));
+const sbkDates = getNextWeekdays(3, 4); // mercredis
 
 const timbanightEvents: Event[] = timbanightDates.map((d, i) => ({
   id: `timbanight-${fmt(d)}`,
@@ -147,9 +148,27 @@ const quaiEvents: Event[] = quaiDates.map((d, i) => ({
   category: 'summer',
 }));
 
+const sbkEvents: Event[] = sbkDates.map((d) => ({
+  id: `sbk-${fmt(d)}`,
+  titleFr: 'Soirée SBK',
+  titleEs: 'Velada SBK',
+  titleEn: 'SBK Night',
+  date: fmt(d),
+  time: '20h00 – 00h00',
+  venueFr: 'Feeling Good — 12 Av. Kléber, Colombes',
+  venueEs: 'Feeling Good — 12 Av. Kléber, Colombes',
+  venueEn: 'Feeling Good — 12 Av. Kléber, Colombes',
+  descriptionFr: 'Cours de Salsa, Bachata & Kizomba + social dancing. Entrée gratuite.',
+  descriptionEs: 'Clase de Salsa, Bachata & Kizomba + baile social. Entrada gratuita.',
+  descriptionEn: 'Salsa, Bachata & Kizomba class + social dancing. Free entry.',
+  image: '/flyers/sbk.jpeg',
+  category: 'weekly',
+}));
+
 export const upcomingEvents: Event[] = [
   ...timbanightEvents,
   ...communaleEvents,
   ...nocheEvents,
   ...quaiEvents,
+  ...sbkEvents,
 ].sort((a, b) => a.date.localeCompare(b.date));
