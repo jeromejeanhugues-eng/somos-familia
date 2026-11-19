@@ -38,14 +38,6 @@ const SOIREES = [
     badge: "Été 2026",
     featured: false,
   },
-  {
-    icon: "🎉",
-    title: "La Noche Cubana — 2e Samedi",
-    sub: "Jo&Joe Gentilly · 12€ · DJ Tumbao + YugoBeats",
-    href: "https://www.instagram.com/somosfamilia_paris",
-    badge: null,
-    featured: false,
-  },
 ];
 
 const SERVICES = [

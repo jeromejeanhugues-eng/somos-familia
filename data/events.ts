@@ -29,26 +29,6 @@ function getNextWeekdays(dayOfWeek: number, count: number, startDate?: Date): Da
   return dates;
 }
 
-function getNext2ndSaturdays(count: number): Date[] {
-  const dates: Date[] = [];
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-  let month = today.getMonth();
-  let year = today.getFullYear();
-  while (dates.length < count) {
-    const d = new Date(year, month, 1);
-    let samediCount = 0;
-    while (samediCount < 2) {
-      if (d.getDay() === 6) samediCount++;
-      if (samediCount < 2) d.setDate(d.getDate() + 1);
-    }
-    if (d >= today) dates.push(new Date(d));
-    month++;
-    if (month > 11) { month = 0; year++; }
-  }
-  return dates;
-}
-
 function getDimanchesEte(count: number, startDate: Date): Date[] {
   const dates: Date[] = [];
   const today = new Date();
@@ -76,7 +56,6 @@ function fmt(d: Date): string {
 
 const timbanightDates = getNextWeekdays(2, 4, new Date('2025-05-19'));
 const communaleDates = getNextWeekdays(4, 4);
-const nocheDates = getNext2ndSaturdays(3);
 const quaiDates = getDimanchesEte(4, new Date('2025-06-25'));
 const sbkDates = getNextWeekdays(3, 4); // mercredis
 
@@ -112,23 +91,6 @@ const communaleEvents: Event[] = communaleDates.map((d, i) => ({
   descriptionEn: 'Salsa class by Ibra + free latin mix night. €5 for the class.',
   image: '/flyers/Communale.jpeg',
   category: 'weekly',
-}));
-
-const nocheEvents: Event[] = nocheDates.map((d, i) => ({
-  id: `nochecubana-${fmt(d)}`,
-  titleFr: 'La Noche Cubana',
-  titleEs: 'La Noche Cubana',
-  titleEn: 'La Noche Cubana',
-  date: fmt(d),
-  time: '20h00 – 01h30',
-  venueFr: 'Jo&Joe Gentilly, 89-93 Av. Paul Vaillant Couturier, 94250 Gentilly',
-  venueEs: 'Jo&Joe Gentilly, 89-93 Av. Paul Vaillant Couturier, 94250 Gentilly',
-  venueEn: 'Jo&Joe Gentilly, 89-93 Av. Paul Vaillant Couturier, 94250 Gentilly',
-  descriptionFr: 'Cours de salsa cubaine + mix cubano explosif. 12€ tout compris.',
-  descriptionEs: 'Clase de salsa cubana + mix cubano explosivo. 12€ todo incluido.',
-  descriptionEn: 'Cuban salsa class + explosive Cuban mix. €12 all inclusive.',
-  image: '/flyers/noche-cubana.jpeg',
-  category: 'monthly',
 }));
 
 const quaiEvents: Event[] = quaiDates.map((d, i) => ({
@@ -168,7 +130,6 @@ const sbkEvents: Event[] = sbkDates.map((d) => ({
 export const upcomingEvents: Event[] = [
   ...timbanightEvents,
   ...communaleEvents,
-  ...nocheEvents,
   ...quaiEvents,
   ...sbkEvents,
 ].sort((a, b) => a.date.localeCompare(b.date));

@@ -41,16 +41,6 @@ export default function EventsPage({ params: { locale } }: { params: { locale: s
     ambiance: tn('communale.ambiance'),
   };
 
-  const nocheCubana = {
-    name: tn('nochecubana.name'),
-    day: tn('nochecubana.day'),
-    subtitle: tn('nochecubana.subtitle'),
-    description: tn('nochecubana.description'),
-    time: tn('nochecubana.time'),
-    venue: tn('nochecubana.venue'),
-    ambiance: tn('nochecubana.ambiance'),
-  };
-
   const quaiSalsa = {
     name: tn('quaisalsa.name'),
     day: tn('quaisalsa.day'),
@@ -107,7 +97,7 @@ export default function EventsPage({ params: { locale } }: { params: { locale: s
             />
           </AnimatedSection>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-0 sm:gap-px bg-light/5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0 sm:gap-px bg-light/5">
             <AnimatedSection delay={0.1}>
               <NightCard night={timbanight} variant="timbanight" />
             </AnimatedSection>
@@ -118,9 +108,6 @@ export default function EventsPage({ params: { locale } }: { params: { locale: s
               <NightCard night={sbk} variant="sbk" />
             </AnimatedSection>
             <AnimatedSection delay={0.4}>
-              <NightCard night={nocheCubana} variant="nochecubana" />
-            </AnimatedSection>
-            <AnimatedSection delay={0.5}>
               <NightCard night={quaiSalsa} variant="quaisalsa" />
             </AnimatedSection>
           </div>
@@ -213,40 +200,6 @@ export default function EventsPage({ params: { locale } }: { params: { locale: s
                 <li>🎧 Ibra (Cours) + DJ YugoBeats</li>
                 <li>💃 Cours tous niveaux (Salsa)</li>
                 <li>🚪 Entrée : 5€ le cours / Soirée Gratuite</li>
-              </ul>
-            </AnimatedSection>
-          </div>
-
-          {/* Détail La Noche Cubana */}
-          <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center border-t border-light/5 pt-16">
-            <AnimatedSection direction="left">
-              <div className="relative aspect-video overflow-hidden">
-                <Image
-                  src="/flyers/noche-cubana.jpeg"
-                  alt="La Noche Cubana"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                />
-                <div className="absolute inset-0 bg-gradient-to-r from-dark/60 to-transparent" />
-                <div className="absolute top-4 left-4 bg-rose-700 text-light text-xs font-bold uppercase tracking-widest px-3 py-1">
-                  Mensuel
-                </div>
-              </div>
-            </AnimatedSection>
-            <AnimatedSection direction="right">
-              <span className="text-rose-400 text-xs uppercase tracking-[0.2em] font-bold">La Noche Cubana</span>
-              <h2 className="font-playfair text-3xl font-bold text-light mt-3 mb-4">
-                La grande soirée du mois
-              </h2>
-              <p className="text-light/50 leading-relaxed mb-6">
-                Chaque 2e samedi du mois, la Noche Cubana rassemble les passionnés de culture cubaine au Jo&amp;Joe Gentilly pour une soirée intense et conviviale. Entre cours de salsa et mix survoltés, vibrez au rythme de la famille Somos Familia jusqu&apos;au bout de la nuit.
-              </p>
-              <ul className="space-y-2 text-light/50 text-sm">
-                <li>🎵 70% Salsa Cubaine, 30% Bachata &amp; autres</li>
-                <li>🎧 DJ Gilles Tumbao &amp; DJ YugoBeats</li>
-                <li>💃 Cours de Salsa Cubaine (Jorry &amp; Fédé)</li>
-                <li>🚪 Tarif unique : 12€</li>
               </ul>
             </AnimatedSection>
           </div>

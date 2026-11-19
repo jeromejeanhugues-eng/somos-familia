@@ -40,16 +40,6 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
     ambiance: t('nights.communale.ambiance'),
   };
 
-  const nocheCubana = {
-    name: t('nights.nochecubana.name'),
-    day: t('nights.nochecubana.day'),
-    subtitle: t('nights.nochecubana.subtitle'),
-    description: t('nights.nochecubana.description'),
-    time: t('nights.nochecubana.time'),
-    venue: t('nights.nochecubana.venue'),
-    ambiance: t('nights.nochecubana.ambiance'),
-  };
-
   const quaiSalsa = {
     name: t('nights.quaisalsa.name'),
     day: t('nights.quaisalsa.day'),
@@ -133,7 +123,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
             />
           </AnimatedSection>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0 sm:gap-px bg-light/5 mt-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-0 sm:gap-px bg-light/5 mt-4">
             <AnimatedSection delay={0.1}>
               <NightCard
                 night={timbanight}
@@ -149,13 +139,6 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
               />
             </AnimatedSection>
             <AnimatedSection delay={0.3}>
-              <NightCard
-                night={nocheCubana}
-                variant="nochecubana"
-                learnMoreLabel={t('upcoming_events.learn_more')}
-              />
-            </AnimatedSection>
-            <AnimatedSection delay={0.4}>
               <NightCard
                 night={quaiSalsa}
                 variant="quaisalsa"

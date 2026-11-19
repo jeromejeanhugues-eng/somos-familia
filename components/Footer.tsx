@@ -110,10 +110,6 @@ export default function Footer() {
                 <br />Chaque jeudi · 19h00
               </li>
               <li>
-                <span className="text-rose-400 text-xs uppercase tracking-widest">La Noche Cubana</span>
-                <br />2e samedi du mois · 20h00
-              </li>
-              <li>
                 <span className="text-cyan-400 text-xs uppercase tracking-widest">Quai en Salsa ☀</span>
                 <br />Dim. · 25 juin – fin août · 19h00
               </li>

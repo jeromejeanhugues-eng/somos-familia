@@ -14,7 +14,7 @@ interface NightData {
 
 interface Props {
   night: NightData;
-  variant: 'timbanight' | 'communale' | 'nochecubana' | 'quaisalsa' | 'sbk';
+  variant: 'timbanight' | 'communale' | 'quaisalsa' | 'sbk';
   learnMoreLabel?: string;
 }
 
@@ -29,12 +29,6 @@ const variantStyles = {
     accent: 'border-light/20',
     badge: 'bg-light/5 text-light/70 border border-light/10',
     tag: 'LA COMMUNALE',
-    summer: false,
-  },
-  nochecubana: {
-    accent: 'border-rose-700',
-    badge: 'bg-rose-900/20 text-rose-300 border border-rose-700/30',
-    tag: 'LA NOCHE CUBANA',
     summer: false,
   },
   quaisalsa: {
