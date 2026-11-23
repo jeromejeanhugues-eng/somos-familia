@@ -110,6 +110,10 @@ export default function Footer() {
                 <br />Chaque jeudi · 19h00
               </li>
               <li>
+                <span className="text-purple-400 text-xs uppercase tracking-widest">Soirée SBK</span>
+                <br />Chaque mercredi · 20h00
+              </li>
+              <li>
                 <span className="text-cyan-400 text-xs uppercase tracking-widest">Quai en Salsa ☀</span>
                 <br />Dim. · 25 juin – fin août · 19h00
               </li>

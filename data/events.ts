@@ -123,7 +123,7 @@ const sbkEvents: Event[] = sbkDates.map((d) => ({
   descriptionFr: 'Cours de Salsa, Bachata & Kizomba + social dancing. Entrée gratuite.',
   descriptionEs: 'Clase de Salsa, Bachata & Kizomba + baile social. Entrada gratuita.',
   descriptionEn: 'Salsa, Bachata & Kizomba class + social dancing. Free entry.',
-  image: '/flyers/sbk.jpeg',
+  image: '/flyers/sbk.webp',
   category: 'weekly',
 }));
 

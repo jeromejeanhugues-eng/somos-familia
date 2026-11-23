@@ -38,6 +38,14 @@ const SOIREES = [
     badge: "Été 2026",
     featured: false,
   },
+  {
+    icon: "💜",
+    title: "Soirée SBK — Mercredi",
+    sub: "Feeling Good, Colombes · Salsa · Bachata · Kizomba",
+    href: "https://www.instagram.com/somosfamilia_paris",
+    badge: null,
+    featured: false,
+  },
 ];
 
 const SERVICES = [

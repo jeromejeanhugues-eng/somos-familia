@@ -243,14 +243,14 @@ export default function EventsPage({ params: { locale } }: { params: { locale: s
               <div className="group relative max-w-xs w-full">
                 <div className="absolute -inset-1 bg-purple-500/20 blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-sm" />
                 <a
-                  href="/flyers/sbk.jpeg"
+                  href="/flyers/sbk.webp"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Voir le flyer Soirée SBK en grand"
                   className="relative block border border-light/10 group-hover:border-purple-400/40 transition-colors duration-300 overflow-hidden"
                 >
                   <Image
-                    src="/flyers/sbk.jpeg"
+                    src="/flyers/sbk.webp"
                     alt="Flyer officiel Soirée SBK"
                     width={400}
                     height={566}

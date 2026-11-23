@@ -50,6 +50,16 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
     ambiance: t('nights.quaisalsa.ambiance'),
   };
 
+  const sbk = {
+    name: t('nights.sbk.name'),
+    day: t('nights.sbk.day'),
+    subtitle: t('nights.sbk.subtitle'),
+    description: t('nights.sbk.description'),
+    time: t('nights.sbk.time'),
+    venue: t('nights.sbk.venue'),
+    ambiance: t('nights.sbk.ambiance'),
+  };
+
   const previewImages = [
     '/galerie/galerie-1.jpg',
     '/galerie/galerie-2.jpg',
@@ -123,7 +133,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
             />
           </AnimatedSection>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-0 sm:gap-px bg-light/5 mt-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0 sm:gap-px bg-light/5 mt-4">
             <AnimatedSection delay={0.1}>
               <NightCard
                 night={timbanight}
@@ -139,6 +149,13 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
               />
             </AnimatedSection>
             <AnimatedSection delay={0.3}>
+              <NightCard
+                night={sbk}
+                variant="sbk"
+                learnMoreLabel={t('upcoming_events.learn_more')}
+              />
+            </AnimatedSection>
+            <AnimatedSection delay={0.4}>
               <NightCard
                 night={quaiSalsa}
                 variant="quaisalsa"
